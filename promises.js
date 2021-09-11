@@ -1,12 +1,11 @@
 let p = new Promise((resolve, reject) => {
-    let a = 1+3;
-    if(a == 2) {
+    let a = Math.round((Math.random() ));
+    if(a == 0) {
         resolve('Success')
     } else {
         reject('Failed')
     }
 })
-
 p.then((message) => {
     console.log('this is in the ' + message)
 }).catch((message) => {
