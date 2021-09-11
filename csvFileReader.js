@@ -1,7 +1,8 @@
 const csv = require('csv-parser');
 const fs = require('fs');
+let path = 'C:/Users/naps/Desktop/snjv/reactapp/aynch_programming_js/Audience.csv';
 
-fs.createReadStream('data.csv')
+fs.createReadStream(path)
   .pipe(csv())
   .on('data', (row) => {
     console.log(row);
