@@ -7,7 +7,7 @@ let p = new Promise((resolve, reject) => {
     }
 })
 p.then((message) => {
-    console.log('this is in the ' + message)
+    console.log('this is  then ' + message)
 }).catch((message) => {
-    console.log('this is in the ' + message)
+    console.log('this is  catch ' + message)
 })
