@@ -16,4 +16,3 @@ module.exports = function read(filePath) {
     })
  
 }
-console.log("kjiew")
