@@ -14,6 +14,10 @@ readFile(path).then((a) => {
      if(a[i].fname == "prince") {
          console.log(" fined the address of prince = " + a[i].address)
      }
+     if(a[i].fname == "prince") {
+        console.log(" last of prince = " + a[i].lname)
+    }
+
 
      }
 }).catch((b) => {
